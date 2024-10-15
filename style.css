@@ -1,0 +1,34 @@
+
+section {
+    display: block;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+section p {
+    margin: 12px 0px;
+}
+
+blockquote {
+    margin-left: 50px;
+}
+
+blockquote p {
+    font-size: 1.1rem;
+    padding: 1.5em;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
